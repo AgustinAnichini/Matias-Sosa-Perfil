@@ -1,0 +1,69 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 15px;
+  width: 100%;
+  height: 50px;
+  z-index: 99;
+}
+
+.redes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  height: 50px;
+  margin: 0px 0px 0px 60px;
+  /* https://www.svgrepo.com/ */
+}
+
+.redes img {
+  width: 20px;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 0px 70px 0px 0px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.img-hero {
+  max-width: 100%;
+  position: absolute;
+  top: -450px;
+  z-index: 1;
+}
+
+.presentacion {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 350px;
+  z-index: 10;
+}
+
+.presentacion h1 {
+  color: white;
+  font-size: 100px;
+  margin: 0px 0px 20px 0px;
+}
+
+.presentacion p {
+  color: white;
+  width: 50%;
+  text-align: justify;
+  margin: auto;
+  font-size: large;
+}
