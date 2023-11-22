@@ -2,14 +2,39 @@
   padding: 0px;
   margin: 0px;
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/*fondo de barra*/
+::-webkit-scrollbar-track {
+  background-color: grey;
+}
+
+/*barra*/
+::-webkit-scrollbar-thumb {
+  background: #772a30;
+}
+
+/*Barra:hover*/
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 nav {
-  position: absolute;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   top: 15px;
   width: 100%;
   height: 50px;
   z-index: 99;
+  transition: top 0.3s;
 }
 
 .redes {
@@ -37,6 +62,7 @@ nav {
 .menu a {
   text-decoration: none;
   color: white;
+  font-size: medium;
 }
 
 .img-hero {
