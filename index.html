@@ -1,48 +1,114 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="img/">
-    <link rel="stylesheet" href="css/estilos.css" />
-    <title>Matias Sosa</title>
-  </head>
-  <body>
-    <header>
-      <nav id="nav">
-        <div class="redes">
-          <a href=""><img src="img/instagram.svg" alt="redes- instagram" /></a>
-          <a href=""><img src="img/youtube.svg" alt="" /></a>
-          <a href=""><img src="img/tiktok.svg" alt="" /></a>
-          <a href=""><img src="img/spotifly.svg" alt="" /></a>
-          <a href=""><img src="img/twitter.svg" alt="" /></a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="img/">
+  <link rel="stylesheet" href="css/estilos.css" />
+  <title>Matias Sosa</title>
+</head>
+
+<body>
+  <header>
+    <nav id="nav">
+      <div class="redes">
+        <a href=""><img src="img/instagram.svg" alt="redes- instagram" /></a>
+        <a href=""><img src="img/youtube.svg" alt="" /></a>
+        <a href=""><img src="img/tiktok.svg" alt="" /></a>
+        <a href=""><img src="img/spotifly.svg" alt="" /></a>
+        <a href=""><img src="img/twitter.svg" alt="" /></a>
+      </div>
+
+      <div class="menu">
+        <a href="#alb">Musica</a>
+        <a href="#equipo">Equipo</a>
+        <a href="">Merch</a>
+        <a href="">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <img class="img-hero" src="img/foto 3.jpg" alt="" />
+    <img class="img-hero-2" src="img/foto 1.jpg" alt="" />
+
+    <!--
+    <img class="fire" src="img/division-fire.svg" alt="">
+    <img class="fire-totated" src="img/division-fire rotated.svg" alt="">-->
+
+    <section class="home">
+
+      <div class="presentacion">
+        <h1>Matias Sosa</h1>
+        <p>
+          ¡Hola a todos! Mi nombre es Matías Sosa y estoy emocionado de
+          compartir contigo mi apasionante viaje en el mundo de TikTok y la
+          música. Mi aventura comenzó en las redes sociales, donde descubrí mi
+          pasión por entretener y conectar con personas de todo el mundo.
+        </p>
+      </div>
+    </section>
+
+    <section class="albumes">
+      <h1 id="alb" class="sections">Albumes</h1>
+      <div class="contenedor-alb">
+        <div class="alb-1">
+          <img class="alb-img" src="img/foto 4.jpg" alt="album-1 Matias Sosa">
+          <div class="alb-2">
+            <h1>Album matias sosa</h1>
+            <a href=""><img src="img/youtube.svg" alt="" /></a>
+            <a href=""><img src="img/spotifly.svg" alt="" /></a>
+          </div>
+          <button id="acord" class="canciones">Canciones</button>
+
+          <div id="links-canciones" class="links acordion">
+            <a href="#">Cancion 1</a>
+            <a href="#">Cancion 1</a>
+            <a href="#">Cancion 1</a>
+            <a href="#">Cancion 1</a>
+          </div>
         </div>
 
-        <div class="menu">
-          <a href="">Musica</a>
-          <a href="">Equipo</a>
-          <a href="">Merch</a>
-          <a href="">Contacto</a>
+        <div class="alb-1">
+          <img class="alb-img" src="img/foto 4.jpg" alt="album-1 Matias Sosa">
+          <div class="alb-2">
+            <h1>Album matias sosa</h1>
+            <a href="#"><img src="img/youtube.svg" alt="#" /></a>
+            <a href="#"><img src="img/spotifly.svg" alt="#" /></a>
+          </div>
+          <button id="acord-1" class="canciones">Canciones</button>
+
+          <div id="links-canciones-2" class="links acordion">
+            <a href="#">Cancion 1</a>
+            <a href="#">Cancion 1</a>
+            <a href="#">Cancion 1</a>
+            <a href="#">Cancion 1</a>
+          </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </section>
 
-    <main>
-      <section class="home">
-        <img class="img-hero" src="img/foto 3.jpg" alt="" />
-
-        <div class="presentacion">
-          <h1>Matias Sosa</h1>
-          <p>
-            ¡Hola a todos! Mi nombre es Matías Sosa y estoy emocionado de
-            compartir contigo mi apasionante viaje en el mundo de TikTok y la
-            música. Mi aventura comenzó en las redes sociales, donde descubrí mi
-            pasión por entretener y conectar con personas de todo el mundo.
+    <section class="equipo">
+      <h1 id="equipo" class="sections">Equipo</h1>
+      <div class="card">
+        <div class="info">
+          <h1>nombre</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatibus saepe expedita sapiente
+            laboriosam!
           </p>
+          <div class="redes">
+            <a href="#"><img src="img/instagram.svg" alt="#" /></a>
+            <a href="#"><img src="img/tiktok.svg" alt="#" /></a>
+          </div>
         </div>
-      </section>
-    </main>
+      </div>
 
-    <footer></footer>
-    <script src="js/nav.js"></script>
-  </body>
+    </section>
+  </main>
+
+  <footer></footer>
+  <script src="js/nav.js"></script>
+  <script src="js/accordion.js"></script>
+</body>
+
 </html>

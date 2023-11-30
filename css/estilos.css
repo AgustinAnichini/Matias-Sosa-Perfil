@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Libre+Baskerville&display=swap');
+/* Libre Baskerville */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
+
+/* Libre Franklin */
 * {
   padding: 0px;
   margin: 0px;
@@ -24,6 +30,10 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+main {
+  height: auto;
 }
 
 nav {
@@ -57,6 +67,9 @@ nav {
   align-items: center;
   gap: 30px;
   margin: 0px 70px 0px 0px;
+  font-family: 'Libre Franklin';
+  font-size: medium;
+  font-weight: bold;
 }
 
 .menu a {
@@ -72,24 +85,169 @@ nav {
   z-index: 1;
 }
 
+.img-hero-2 {
+  max-width: 100%;
+  position: absolute;
+  top: 1535px;
+  z-index: 1;
+}
+
+.fire {
+  max-width: 100%;
+  position: absolute;
+  top: 1100px;
+  left: 0px;
+  z-index: 2;
+}
+
+.fire-totated {
+  max-width: 100%;
+  position: absolute;
+  top: 1500px;
+  left: 0px;
+  z-index: 3;
+}
+
 .presentacion {
   width: 100%;
   text-align: center;
   position: relative;
-  top: 350px;
+  top: 400px;
   z-index: 10;
 }
 
 .presentacion h1 {
   color: white;
-  font-size: 100px;
+  font-family: 'Libre Baskerville';
+  font-size: 80px;
   margin: 0px 0px 20px 0px;
 }
 
 .presentacion p {
   color: white;
+  font-family: 'Libre Franklin';
   width: 50%;
   text-align: justify;
   margin: auto;
-  font-size: large;
+  font-size: small;
+  font-weight: bold;
+}
+
+.albumes {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 550px;
+  z-index: 10;
+}
+
+.sections {
+  color: white;
+  font-family: 'Libre Baskerville';
+  font-size: 50px;
+  margin: 0px 0px 20px 0px;
+  text-align: center;
+  position: relative;
+  top: 0px;
+  z-index: 10;
+}
+
+.contenedor-alb {
+  display: flex;
+  justify-content: space-around;
+}
+
+.alb-1 {
+  width: 300px;
+  height: 200px;
+  background-color: grey;
+  z-index: 10;
+  margin-top: 100px;
+}
+
+.alb-2 {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  top: -85px;
+  background-color: #772a30;
+  width: 300px;
+  height: 180px;
+  z-index: 10;
+}
+
+.alb-2 img {
+  width: 20px;
+  height: auto;
+  right: 15px;
+  bottom: -135px;
+  position: relative;
+  padding: 8;
+}
+
+.alb-2 h1 {
+  color: white;
+  font-family: 'Libre Franklin';
+  font-weight: bold;
+  font-size: small;
+  text-align: left;
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+}
+
+.alb-img {
+  position: relative;
+  top: 30px;
+  width: 250px;
+  height: 200px;
+  z-index: 11;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: -40px;
+}
+
+.acordion {
+  display: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Libre Franklin';
+  font-weight: bold;
+  padding: 5px;
+  background-color: #772a30;
+}
+
+.links a:hover {
+  background-color: grey;
+  color: black;
+}
+
+.canciones {
+  width: 300px;
+  background-color: black;
+  color: white;
+  font-family: 'Libre Franklin';
+  border: none;
+  padding: 5px;
+  margin-top: -65px;
+  cursor: pointer;
+  text-align: left;
+  padding-left: 25px;
+  font-weight: bold;
+}
+
+.equipo {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 1300px;
+  z-index: 10;
 }
