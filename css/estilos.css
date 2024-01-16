@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Libre+Baskerville&display=swap');
-/* Libre Baskerville */
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+/* font-family: 'Forum', serif; */
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
 
-/* Libre Franklin */
 * {
   padding: 0px;
   margin: 0px;
@@ -20,7 +18,7 @@
 
 /*barra*/
 ::-webkit-scrollbar-thumb {
-  background: #772a30;
+  background: #f42947;
 }
 
 /*Barra:hover*/
@@ -30,6 +28,10 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
 }
 
 main {
@@ -67,187 +69,113 @@ nav {
   align-items: center;
   gap: 30px;
   margin: 0px 70px 0px 0px;
-  font-family: 'Libre Franklin';
-  font-size: medium;
-  font-weight: bold;
 }
 
 .menu a {
   text-decoration: none;
   color: white;
-  font-size: medium;
+  font-size: large;
+  font-weight: lighter;
+  font-family: 'Forum', serif;
+}
+
+.title {
+  color: white;
+  font-size: 100px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 550px;
+  letter-spacing: 15px;
+}
+
+.hero {
+  text-align: center;
 }
 
 .img-hero {
-  max-width: 100%;
+  width: 1500px;
+  height: auto;
   position: absolute;
-  top: -450px;
-  z-index: 1;
+  top: -60px;
+  z-index: -2;
 }
 
-.img-hero-2 {
-  max-width: 100%;
-  position: absolute;
-  top: 1535px;
-  z-index: 1;
-}
-
-.fire {
-  max-width: 100%;
-  position: absolute;
-  top: 1100px;
-  left: 0px;
-  z-index: 2;
-}
-
-.fire-totated {
-  max-width: 100%;
-  position: absolute;
-  top: 1500px;
-  left: 0px;
-  z-index: 3;
-}
-
-.presentacion {
-  width: 100%;
+.sub-title {
+  color: white;
+  font-size: 50px;
+  font-weight: lighter;
   text-align: center;
-  position: relative;
-  top: 400px;
-  z-index: 10;
-}
-
-.presentacion h1 {
-  color: white;
-  font-family: 'Libre Baskerville';
-  font-size: 80px;
-  margin: 0px 0px 20px 0px;
-}
-
-.presentacion p {
-  color: white;
-  font-family: 'Libre Franklin';
-  width: 50%;
-  text-align: justify;
-  margin: auto;
-  font-size: small;
-  font-weight: bold;
+  letter-spacing: 15px;
+  margin-top: 190px;
 }
 
 .albumes {
-  width: 100%;
-  text-align: center;
-  position: relative;
-  top: 550px;
-  z-index: 10;
-}
-
-.sections {
-  color: white;
-  font-family: 'Libre Baskerville';
-  font-size: 50px;
-  margin: 0px 0px 20px 0px;
-  text-align: center;
-  position: relative;
-  top: 0px;
-  z-index: 10;
-}
-
-.contenedor-alb {
+  align-items: center;
   display: flex;
-  justify-content: space-around;
-}
-
-.alb-1 {
-  width: 300px;
-  height: 200px;
-  background-color: grey;
-  z-index: 10;
+  flex-direction: column;
   margin-top: 100px;
 }
 
-.alb-2 {
-  display: flex;
-  justify-content: end;
-  position: relative;
-  top: -85px;
-  background-color: #772a30;
-  width: 300px;
-  height: 180px;
-  z-index: 10;
-}
-
-.alb-2 img {
-  width: 20px;
-  height: auto;
-  right: 15px;
-  bottom: -135px;
-  position: relative;
-  padding: 8;
-}
-
-.alb-2 h1 {
-  color: white;
-  font-family: 'Libre Franklin';
-  font-weight: bold;
-  font-size: small;
-  text-align: left;
-  position: absolute;
-  bottom: 20px;
-  left: 25px;
-}
-
-.alb-img {
-  position: relative;
-  top: 30px;
-  width: 250px;
-  height: 200px;
-  z-index: 11;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+.album {
+  max-width: 100%;
+  width: 260px;
+  height: 260px;
 }
 
 .links {
   display: flex;
-  flex-direction: column;
-  text-align: left;
-  margin-top: -40px;
 }
 
-.acordion {
-  display: none;
+.links img {
+  width: 30px;
+  padding: 15px;
 }
 
-.links a {
-  text-decoration: none;
+.fire-music {
+  position: absolute;
+  left: 0px;
+  z-index: -2;
+}
+
+.fire-music-2 {
+  position: absolute;
+  right: 0px;
+  top: 1800px;
+  z-index: -2;
+}
+
+.songs {
   color: white;
-  font-family: 'Libre Franklin';
-  font-weight: bold;
-  padding: 5px;
-  background-color: #772a30;
-}
-
-.links a:hover {
-  background-color: grey;
-  color: black;
-}
-
-.canciones {
-  width: 300px;
-  background-color: black;
-  color: white;
-  font-family: 'Libre Franklin';
-  border: none;
-  padding: 5px;
-  margin-top: -65px;
-  cursor: pointer;
-  text-align: left;
-  padding-left: 25px;
-  font-weight: bold;
-}
-
-.equipo {
-  width: 100%;
   text-align: center;
-  position: relative;
-  top: 1300px;
-  z-index: 10;
+  font-size: x-large;
+  font-weight: lighter;
+  font-family: 'Forum', serif;
+  padding: 10px;
+}
+
+.more {
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.moreVideos {
+  color: white;
+  font-size: smaller;
+  padding: 10px;
+  border: solid 2px white;
+  display: inline-block;
+  margin: auto;
+  margin-top: 30px;
+  text-decoration: none;
+  width: 100px;
+  font-size: medium;
+  font-weight: lighter;
+  font-family: 'Forum', serif;
+  text-align: center;
+}
+
+.btn-more {
+  text-align: center;
 }
