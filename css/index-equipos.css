@@ -12,6 +12,7 @@
     /* background-position: center; */
     /* background-size: contain; */
     margin-top: 8rem;
+    margin-bottom: 15rem;
     /* border: 1px solid white; */
     position: relative;
 }
@@ -30,9 +31,10 @@
 
 /* Titulo */
 
-.sub-title{
+#equipo .sub-title{
     margin-top: 0;
     z-index: 2;
+    margin-bottom: 2rem;
 }
 
 /* Contenido */
@@ -62,6 +64,7 @@
     left: 15%;
     z-index: 4;
     scale: 1.1;
+    transition: 1s;
 }
 #foto-2{
     position: absolute;
@@ -92,6 +95,15 @@
     z-index: 5;
 }
 
+#foto-1:hover{
+    /* background: linear-gradient(rgba(236, 74, 74, 0.945),20%,black,black); */
+    background-color: rgba(66, 64, 64, 0.212);
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 90px;
+    border: 3px solid rgba(230, 54, 54, 0.938);
+}
+
 /* Descripcion */
 
 #equipo-descripcion{
@@ -119,7 +131,14 @@
     margin: .8rem 0;
     
 }
+
+#equipo-redes{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
 #equipo-redes img{
-    width: 2rem;
+    width: 2.5rem;
     height: auto;
 }
