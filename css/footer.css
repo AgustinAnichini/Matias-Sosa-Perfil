@@ -17,6 +17,8 @@ footer{
     grid-template-areas: "titulo form" "texto texto";
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
+    /* align-content: center;
+    justify-content: center; */
 }
 
 /* Titulo */
@@ -36,30 +38,42 @@ footer{
     text-align: center;
     margin: auto;
     width: 80%;
-    display: inline-block;
+    /* height: 100%; */
+    display: flex;
+    box-sizing: border-box;
     /* margin-block-end: 0; */
 }
 
 #texto-form-comunidad{
     /* margin: 0; */
     width: 70%;
-    height: 50%;
+    height: 2rem;
     font-family: 'Forum', serif;
     text-align: center;
     border: none;
     background-color:rgba(226, 226, 226, 0.966);
     font-size: 1.1rem;
+    box-sizing: border-box;
 }
 
 #enviar-form-comunidad{
     /* margin: 0; */
-    height: 50%;
+    height: 2rem;
     width: 30%;
     border: none;
     font-size: 1em;
+    border: 1px solid #920722;
     font-family: 'Forum', serif;
     background-color: #920722;
     color: white;
+    transition: border .5s ease;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+#enviar-form-comunidad:hover{
+    border: 1px solid white;
+    cursor: pointer;
 }
 
 /* Texto */

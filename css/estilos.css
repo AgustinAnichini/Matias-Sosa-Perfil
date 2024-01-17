@@ -5,6 +5,7 @@
 * {
   padding: 0px;
   margin: 0px;
+  /* box-sizing: border-box; */
 }
 
 ::-webkit-scrollbar {
@@ -51,12 +52,14 @@ nav {
 
 .redes {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   gap: 20px;
   height: 50px;
   margin: 0px 0px 0px 60px;
   /* https://www.svgrepo.com/ */
+  width: 20%;
+  /* puse ancho */
 }
 
 .redes img {
