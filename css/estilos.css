@@ -1,6 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
 /* font-family: 'Forum', serif; */
 
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Cinzel&family=Playfair+Display:wght@600&family=Righteous&family=Roboto+Slab:wght@200&display=swap");
+/* font-family: 'Caprasimo', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Righteous', sans-serif; */
+/* font-family: 'Roboto Slab', serif; */
 
 * {
   padding: 0px;
@@ -79,7 +85,7 @@ nav {
   color: white;
   font-size: large;
   font-weight: lighter;
-  font-family: 'Forum', serif;
+  font-family: "Forum", serif;
 }
 
 .title {
@@ -89,6 +95,7 @@ nav {
   text-align: center;
   margin-top: 550px;
   letter-spacing: 15px;
+  font-family: 'Cinzel', serif;
 }
 
 .hero {
@@ -153,7 +160,7 @@ nav {
   text-align: center;
   font-size: x-large;
   font-weight: lighter;
-  font-family: 'Forum', serif;
+  font-family: "Forum", serif;
   padding: 10px;
 }
 
@@ -176,7 +183,7 @@ nav {
   width: 100px;
   font-size: medium;
   font-weight: lighter;
-  font-family: 'Forum', serif;
+  font-family: "Forum", serif;
   text-align: center;
 }
 
