@@ -61,29 +61,30 @@
 
 #foto-1{
     position: absolute;
-    left: 15%;
+    left: 12%;
     z-index: 4;
-    scale: 1;
+    scale: 0.9;
     transition: 1s;
+    top:-1%;
 }
 #foto-2{
     position: absolute;
     /* left: 10; */
-    top: 32%;
+    top: 35%;
     z-index: 6;
-    scale: 0.90;
+    scale: 0.85;
 }
 #foto-3{
     position: absolute;
     left: 28%;
-    top: 50%;
-    scale: 1;
+    top: 46%;
+    scale: 1.1;
     z-index: 8;
 }
 #foto-4{
     position: absolute;
     left: 60%;
-    top: 35%;
+    top: 36%;
     scale: 1;
     z-index: 7;
 }
@@ -102,14 +103,14 @@
     transition: .5s;
     border-radius: 90px;
     border: 3px solid rgba(230, 54, 54, 0.938);
-    scale: 1.1;
+    scale: 1;
 }
 #foto-2:hover{
     background-color: rgba(0, 0, 0, 0.212);
     cursor: pointer;
     transition: .5s;
     border-radius: 90px;
-    scale: 1;
+    scale: .95;
     border: 3px solid rgba(230, 54, 54, 0.938);
 }
 
@@ -118,7 +119,7 @@
     cursor: pointer;
     transition: .5s;
     border-radius: 90px;
-    scale: 1.1;
+    scale: 1.2;
     border: 3px solid rgba(230, 54, 54, 0.938);
 }
 
