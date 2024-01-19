@@ -105,7 +105,13 @@ nav {
   font-size: 100px;
   font-weight: lighter;
   text-align: center;
-  margin-top: 550px;
+  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  margin-left:auto;
+  margin-right:auto;
+  left:0;
+  right:0;
   letter-spacing: 15px;
   font-family: 'Cinzel', serif;
 }
@@ -118,7 +124,7 @@ nav {
   /* width: 1500px; */
   width: 100%;
   height: auto;
-  position: absolute;
+  position: relative;
   top: -60px;
   z-index: -2;
 }
@@ -129,7 +135,7 @@ nav {
   font-weight: lighter;
   text-align: center;
   letter-spacing: 15px;
-  margin-top: 190px;
+  margin-top: 4rem;
 }
 
 .albumes {
