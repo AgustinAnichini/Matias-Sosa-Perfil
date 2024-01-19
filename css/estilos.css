@@ -88,6 +88,7 @@ nav {
   font-family: "Forum", serif;
   scale: 1;
   padding: 10px;
+  border-radius: 90px;
 }
 
 .menu a:hover{
