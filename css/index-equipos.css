@@ -143,7 +143,8 @@
 /* Descripcion */
 
 .equipo-descripcion{
-    width: 30%;
+    width: 32%;
+    height: 100%;
     /* margin: auto; */
     border: 2px solid white;
     display: flex;
@@ -158,10 +159,9 @@
 .equipo-descripcion h3{
     font-size: 2rem;
     color: #fff;
-    text-align: center;
     font-family: 'Forum', serif;
     font-weight: lighter;
-
+    width: 100%;
 }
 
 .equipo-descripcion p{
@@ -170,6 +170,8 @@
     margin: .8rem 0;
     line-height: 1.4rem;
     margin: 1.5rem 0;
+    box-sizing: border-box;
+    height: 100%;
 }
 
 .equipo-redes{
