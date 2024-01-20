@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 /* font-family: 'Forum', serif; */
+@font-face {
+    font-family: "Livia";
+    src: url(/fuentes/livia_medium/Livia\ Medium.ttf);
+  }
 
 #equipo{
     display: flex;
@@ -162,6 +166,7 @@
     font-family: 'Forum', serif;
     font-weight: lighter;
     width: 100%;
+    text-transform: uppercase;
 }
 
 .equipo-descripcion p{
