@@ -7,6 +7,14 @@ font-family: 'Cinzel', serif;
 font-family: 'Playfair Display', serif;
 font-family: 'Righteous', sans-serif; */
 /* font-family: 'Roboto Slab', serif; */
+@font-face {
+  font-family: "Livia";
+  src: url(/fuentes/livia_medium/Livia\ Medium.ttf);
+}
+@font-face {
+  font-family: "Ventura";
+  src: url(/fuentes/ventura_times/ventura_times.ttf);
+}
 
 * {
   padding: 0px;
@@ -102,7 +110,7 @@ nav {
 
 .title {
   color: white;
-  font-size: 100px;
+  font-size: 12rem;
   font-weight: lighter;
   text-align: center;
   margin-top: auto;
@@ -113,7 +121,8 @@ nav {
   left: 0;
   right: 0;
   letter-spacing: 15px;
-  font-family: "Cinzel", serif;
+  font-family: "Livia";
+  /* text-shadow: 2px 7px 1px #ffffff ; */
 }
 
 .hero {
@@ -131,11 +140,12 @@ nav {
 
 .sub-title {
   color: white;
-  font-size: 50px;
+  font-size: 6rem;
   font-weight: lighter;
   text-align: center;
   letter-spacing: 15px;
   margin-top: 4rem;
+  font-family: "Livia";
 }
 
 .albumes {
