@@ -116,3 +116,8 @@ footer{
     font-size: 1rem;
     display: none;
 }
+@media screen and (max-width: 767px) {
+    footer{
+        display: none;
+    }
+  }

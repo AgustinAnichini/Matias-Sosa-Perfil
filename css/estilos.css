@@ -110,7 +110,7 @@ nav {
 
 .title {
   color: white;
-  font-size: 12rem;
+  font-size: 10rem;
   font-weight: lighter;
   text-align: center;
   margin-top: auto;
@@ -124,6 +124,13 @@ nav {
   font-family: "Livia";
   /* text-shadow: 2px 7px 1px #ffffff ; */
 }
+#title-responsive {
+  display: none;
+}
+
+#redes-bajo-titulo {
+  display: none;
+}
 
 .hero {
   text-align: center;
@@ -136,6 +143,10 @@ nav {
   position: relative;
   top: -60px;
   z-index: -2;
+}
+
+#hero-responsive {
+  display: none;
 }
 
 .sub-title {
@@ -235,4 +246,182 @@ nav {
 #ir-arriba img {
   max-width: 100%;
   width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    bottom: 15px;
+    top: auto;
+    justify-content: space-evenly;
+  }
+  .menu {
+    gap: 10px;
+    margin: 0px;
+    background-color: black;
+    height: 66px;
+    background: -o-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0.57) 0%,
+      rgba(0, 0, 0, 0.69) 28%,
+      rgba(0, 0, 0, 0.75) 43%,
+      rgba(0, 0, 0, 0.85) 64%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+
+  .redes {
+    display: none;
+  }
+  #hero-pc {
+    display: none;
+  }
+  #hero-responsive {
+    display: flex;
+  }
+  #redes-bajo-titulo {
+    display: flex;
+    margin: auto;
+    position: relative;
+  }
+  #ir-arriba img {
+    display: none;
+  }
+  .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: lighter;
+    font-family: "Forum", serif;
+    scale: 1;
+    padding: 10px;
+    border-radius: 90px;
+  }
+  .title {
+    font-size: 5rem;
+    font-weight: normal;
+    position: relative;
+  }
+  #title-responsive {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+  #title-pc {
+    display: none;
+  }
+  #redes-bajo-titulo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    gap: 30px;
+  }
+
+  #redes-bajo-titulo img {
+    width: 20px;
+    opacity: 0.4;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #hero-pc {
+    display: none;
+  }
+  #hero-responsive {
+    display: flex;
+  }
+
+  nav {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 15px;
+    width: 100%;
+    height: 50px;
+    z-index: 99;
+    transition: top 0.3s;
+  }
+
+  .redes {
+    display: none;
+  }
+
+  .title {
+    font-size: 7rem;
+    font-weight: normal;
+    position: relative;
+  }
+  #title-responsive {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+  #title-pc {
+    display: none;
+  }
+
+  .menu {
+    justify-content: space-around;
+    gap: 0px;
+    margin: 0px 0px 0px 0px;
+    width: 70%;
+  }
+
+  #redes-bajo-titulo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    margin: auto;
+    width: 60%;
+    margin-top: 1rem;
+  }
+
+  #redes-bajo-titulo img {
+    width: 40px;
+    opacity: 0.4;
+  }
+
+  /* FUEGO */
+  .fire-music {
+    top: 1400px;
+  }
+
+  .fire-music-2 {
+    top: 2500px;
+  }
+
+  /* VIDEOS */
+  .more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+  }
+
+  .moreVideos {
+    padding: 10px;
+    width: 25%;
+    font-size: 1.3rem;
+  }
+
+  .btn-more {
+    text-align: center;
+    width: 100%;
+  }
+
+  #ir-arriba {
+    display: none;
+  }
 }
