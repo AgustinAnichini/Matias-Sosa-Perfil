@@ -127,11 +127,11 @@ nav {
 #title-responsive {
   display: none;
 }
-#title-pc{
+#title-pc {
   bottom: 120;
 }
 
-#home{
+#home {
   position: relative;
 }
 
@@ -258,16 +258,22 @@ nav {
 /* *RESPONSIVE TABLET */
 @media screen and (max-width: 767px) {
   nav {
-    bottom: 15px;
+    bottom: -2px;
+    height: 60px;
     top: auto;
     justify-content: space-evenly;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 1%,
+      rgb(0, 0, 0) 40%
+    );
+    /* background: linear-gradient(180deg, rgba(0,0,0,0) 1%, rgba(119,42,48,1) 40%); */
   }
   .menu {
     gap: 10px;
     margin: 0px;
-    background-color: black;
     height: 66px;
-    width: 100%;
+    width: auto;
   }
 
   .redes {
@@ -327,16 +333,16 @@ nav {
     width: 20px;
     opacity: 0.4;
   }
-  .sub-title{
+  .sub-title {
     margin-top: 16rem;
     font-size: 4rem;
   }
-  iframe{
+  iframe {
     width: 80%;
   }
-  .more{
-   flex-direction: column;
-   align-items: center; 
+  .more {
+    flex-direction: column;
+    align-items: center;
   }
 }
 /* *-------------------- RESPONSIVE TABLET------------------ */
@@ -349,7 +355,7 @@ nav {
     display: flex;
   }
 
-/* NAVEGADOR */
+  /* NAVEGADOR */
   nav {
     position: fixed;
     display: flex;
@@ -360,17 +366,22 @@ nav {
     z-index: 99;
     transition: top 0.3s;
     box-sizing: border-box;
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,0.8729866946778712) 0%, rgba(0,0,0,0.7021183473389356) 71%, rgba(0,0,0,0) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.8729866946778712) 0%,
+      rgba(0, 0, 0, 0.7021183473389356) 71%,
+      rgba(0, 0, 0, 0) 100%
+    );
   }
 
   .menu a:hover {
     background-color: rgba(0, 0, 0, 0);
-    cursor:auto;
+    cursor: auto;
     transition: 0.5s;
     border-radius: 0px;
     scale: 1;
-    border:none;
+    border: none;
   }
 
   .menu {
@@ -379,7 +390,7 @@ nav {
     margin: 0px 0px 0px 0px;
     width: 70%;
   }
-  
+
   .menu a {
     font-size: 1.3rem;
     font-weight: normal;
@@ -399,8 +410,6 @@ nav {
     border-radius: 0px;
     font-family: 'Livia';
   } */
-  
-   
 
   .redes {
     display: none;
@@ -425,8 +434,6 @@ nav {
   #title-pc {
     display: none;
   }
-
- 
 
   /* REDES DE TITULO */
   #redes-bajo-titulo {
@@ -454,7 +461,7 @@ nav {
   }
 
   /* Playlists */
-  .albumes iframe{
+  .albumes iframe {
     width: 60%;
   }
 
@@ -478,18 +485,17 @@ nav {
     width: 100%;
   }
 
-  .card-video{
+  .card-video {
     width: 50%;
   }
-  .videoClips{
+  .videoClips {
     width: 100%;
     height: auto;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
   }
 
   /* Boton de subir */
   #ir-arriba {
     display: none;
   }
-
 }
