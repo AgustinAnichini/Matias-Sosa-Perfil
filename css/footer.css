@@ -120,7 +120,8 @@ footer{
 /* *RESPONSIVE CELULAR */
 @media screen and (max-width: 767px) {
     footer{
-        display: none;
+        padding: 0px;
+        
     }
 }
 
