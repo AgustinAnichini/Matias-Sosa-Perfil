@@ -85,6 +85,8 @@ footer{
     color: white;
     text-align: center;
     font-size: 1.2em;
+    font-weight:lighter;
+    font-family: 'Forum', serif;
 }
 
 
@@ -117,14 +119,14 @@ footer{
     display: none;
 }
 
-/* *RESPONSIVE CELULAR */
+/* *-------------------RESPONSIVE CELULAR ---------------------*/
 @media screen and (max-width: 767px) {
     footer{
         display: none;
     }
 }
 
-/* *RESPONSIVE TABLET */
+/* *--------------------RESPONSIVE TABLET ---------------------*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     footer{
         width: 80%;
@@ -132,6 +134,7 @@ footer{
         /* padding-bottom: 2em; */
         padding: 0 0em 1em 0em;
     }
+    
 
 
     /* Img */
@@ -155,7 +158,8 @@ footer{
         text-align: center;
         font-size: 1rem;
         display: none;
-        
-
+        font-weight: lighter;
     }
+
+
 }

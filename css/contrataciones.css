@@ -30,25 +30,27 @@ main{
     color: white;
     background-image: url('/img/fuego equipo.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     /* Aplicar opacidad directamente a la imagen de fondo */
     /* background-color: rgba(255, 255, 255, 0.2); */
     padding: 0 17rem;
 }
 
-/* #contrataciones-form label{
-    /* color: white; */
-/* } */
+ #contrataciones-form label{
+    letter-spacing: 1px;
+}
 
 .contrataciones-input{
     margin: 0.5rem 0 1rem;
     height: 2.3rem;
     background-color: #000000a9;
     padding-left: 1rem;
+    padding-right: 1rem;
     color: white;
     font-family: 'Forum', serif;
     font-size: 1.2rem;
     border: 2px solid white;
+    letter-spacing: 1px;
 }
 
 .contrataciones-input::placeholder{
@@ -69,7 +71,8 @@ main{
 
 #contrataciones-enviar{
     width: 25%;
-    text-align: 1px;
+    height: 2.3rem;
+    text-align: center;
     padding: 0;
     margin: 1rem auto 0;
     transition:background-color 0.5s ease;
@@ -78,4 +81,58 @@ main{
 #contrataciones-enviar:hover{
     background-color: #920722;
     cursor: pointer;
+}
+
+/* *-------------------- RESPONSIVE TABLET------------------ */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* NAVEGADOR */
+    nav{
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .redes{
+        display: flex;
+        align-items: center;
+        margin: 0;;
+            justify-content: space-around;
+            gap: 20px;
+            height: 50px;
+            margin: 0;
+            width: 40%;
+    }
+    .redes img{
+        width: 25px;
+    }
+    .menu{
+        width: auto;
+    }
+
+    /* FORMULARIO */
+    #contrataciones-form {
+        width: 50%;
+        background-position: center;
+        padding: 0 10rem;
+    }
+
+    #contrataciones-enviar:hover{
+        background-color: rgba(0, 0, 0, 0);
+        cursor: none;
+    }
+    
+    /* FOOTER */
+    footer{
+        position: absolute;
+        bottom: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+
 }

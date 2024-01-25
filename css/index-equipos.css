@@ -177,6 +177,7 @@
     margin: 1.5rem 0;
     box-sizing: border-box;
     height: 100%;
+    letter-spacing: 1px;
 }
 
 .equipo-redes{
@@ -194,10 +195,136 @@
 .equipo-display-none{
     display: none;
 }
-
+/*  !--------------------------------------------------------- */
+  /* *-----------------------RESPONSIVE CELULAR ---------------*/
 
 @media screen and (max-width: 767px) {
     #equipo {
       display: none;
     }
   }
+
+  /* *----------------------RESPONSIVE TABLET -----------------*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    #equipo{
+        width: 100%;
+    }
+
+    /* Fondo */
+
+    #fuego-equipo{
+        width: 90%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        opacity: 0.7;
+        /* rotate:calc(90deg); */
+        /* ? probar con agus rotando la imagen */
+    }
+
+    /* Titulo */
+
+    #equipo .sub-title{
+        margin-top: 0;
+        z-index: 2;
+        margin-bottom: 2rem;
+    }
+
+    /* Contenido */
+
+    #equipo-contenido{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center;
+    }
+
+    /* Fotos */
+
+    #equipo-fotos{
+        position: relative;
+        width: 65%;
+        margin-bottom: 4rem;
+    }
+
+    #equipo-fotos img{
+        width: 12rem;
+        height: auto;
+    }
+
+    
+#foto-1:hover{
+    /* background: linear-gradient(rgba(236, 74, 74, 0.945),20%,black,black); */
+    background-color: rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 90px;
+    border: 3px solid rgba(230, 54, 54, 0.938);
+    scale: 1;
+}
+#foto-2:hover{
+    background-color: rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 90px;
+    scale: .95;
+    border: 3px solid rgba(230, 54, 54, 0.938);
+}
+
+#foto-3:hover{
+    background-color: rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 90px;
+    scale: 1.2;
+    border: 3px solid rgba(230, 54, 54, 0.938);
+}
+
+#foto-4:hover{
+    background-color: rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 90px;
+    scale: 1.1;
+    border: 3px solid rgba(230, 54, 54, 0.938);
+}
+
+#foto-5:hover{
+    background-color: rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 90px;
+    scale: 1.1;
+    border: 3px solid rgba(230, 54, 54, 0.938);
+}
+/* Descripcion */
+
+.equipo-descripcion{
+    width: 55%;
+    /* margin: auto; */
+}
+
+.equipo-descripcion h3{
+    font-size: 2rem;
+
+}
+
+.equipo-redes{
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+
+.equipo-redes img{
+    width: 2.3rem;
+    height: auto;
+}
+
+/* Display none */
+.equipo-display-none{
+    display: none;
+}
+    
+}
