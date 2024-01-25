@@ -255,7 +255,8 @@ nav {
   width: 100%;
 }
 
-/* *RESPONSIVE TABLET */
+/* *-----------------------RESPONSIVE CELULAR----------------- */
+/* ---------------------------------------------------------- */
 @media screen and (max-width: 767px) {
   nav {
     bottom: -2px;
@@ -276,6 +277,17 @@ nav {
     width: auto;
   }
 
+  .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: lighter;
+    font-family: "Forum", serif;
+    scale: 1;
+    padding: 10px;
+    border-radius: 90px;
+  }
+
   .redes {
     display: none;
   }
@@ -293,16 +305,7 @@ nav {
   #ir-arriba img {
     display: none;
   }
-  .menu a {
-    text-decoration: none;
-    color: white;
-    font-size: large;
-    font-weight: lighter;
-    font-family: "Forum", serif;
-    scale: 1;
-    padding: 10px;
-    border-radius: 90px;
-  }
+ 
   .title {
     font-size: 5rem;
     font-weight: normal;
@@ -425,7 +428,7 @@ nav {
     display: flex;
     flex-direction: column;
     position: absolute;
-    bottom: 5%;
+    bottom: 13%;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -492,6 +495,17 @@ nav {
     width: 100%;
     height: auto;
     margin-top: 0.5rem;
+  }
+
+  /* redes musica */
+  .links{
+    width: 30%;
+    margin-top: 1rem;
+    justify-content: space-evenly;
+  }
+  .links img {
+    width: 40px;
+    padding: 15px;
   }
 
   /* Boton de subir */
