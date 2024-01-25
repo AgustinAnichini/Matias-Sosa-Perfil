@@ -82,7 +82,23 @@ main{
     background-color: #920722;
     cursor: pointer;
 }
-
+@media screen and (max-width:767px){
+    #contrataciones-title {
+        font-size: 1rem;
+        margin: 50px 0px 100px 0px;
+    }
+    #contrataciones-form{
+        width: 80%;
+        padding: 0px;
+        background-position-y: center;
+    }
+    label{
+        font-size: medium;
+    }
+    .contrataciones-input {
+        font-size: medium;
+    }
+}
 /* *-------------------- RESPONSIVE TABLET------------------ */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {

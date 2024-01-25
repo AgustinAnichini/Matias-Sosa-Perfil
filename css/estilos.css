@@ -347,6 +347,9 @@ nav {
     flex-direction: column;
     align-items: center;
   }
+  .menu a:hover{
+    
+  }
 }
 /* *-------------------- RESPONSIVE TABLET------------------ */
 
