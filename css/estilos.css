@@ -127,6 +127,13 @@ nav {
 #title-responsive {
   display: none;
 }
+#title-pc{
+  bottom: 120;
+}
+
+#home{
+  position: relative;
+}
 
 #redes-bajo-titulo {
   display: none;
@@ -248,6 +255,7 @@ nav {
   width: 100%;
 }
 
+/* *RESPONSIVE TABLET */
 @media screen and (max-width: 767px) {
   nav {
     bottom: 15px;
@@ -330,6 +338,7 @@ nav {
    align-items: center; 
   }
 }
+/* *-------------------- RESPONSIVE TABLET------------------ */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   #hero-pc {
@@ -339,21 +348,64 @@ nav {
     display: flex;
   }
 
+/* NAVEGADOR */
   nav {
     position: fixed;
     display: flex;
     justify-content: center;
     top: 15px;
     width: 100%;
-    height: 50px;
+    height: 80px;
     z-index: 99;
     transition: top 0.3s;
+    box-sizing: border-box;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.8729866946778712) 0%, rgba(0,0,0,0.7021183473389356) 71%, rgba(0,0,0,0) 100%);
   }
+
+  .menu a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    cursor:auto;
+    transition: 0.5s;
+    border-radius: 0px;
+    scale: 1;
+    border:none;
+  }
+
+  .menu {
+    justify-content: space-around;
+    gap: 0px;
+    margin: 0px 0px 0px 0px;
+    width: 70%;
+  }
+  
+  .menu a {
+    font-size: 1.3rem;
+    font-weight: normal;
+    letter-spacing: 2px;
+    /* no esta en las otras escalas de tamaño (responsive) */
+    scale: 1;
+    border-radius: 0px;
+  }
+  /*
+    .menu a {
+    font-size: 1.7rem;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    /* no esta en las otras escalas de tamaño (responsive)
+    scale: 1;
+    border-radius: 0px;
+    font-family: 'Livia';
+  } */
+  
+   
 
   .redes {
     display: none;
   }
 
+  /* TITULO */
   .title {
     font-size: 7rem;
     font-weight: normal;
@@ -373,13 +425,9 @@ nav {
     display: none;
   }
 
-  .menu {
-    justify-content: space-around;
-    gap: 0px;
-    margin: 0px 0px 0px 0px;
-    width: 70%;
-  }
+ 
 
+  /* REDES DE TITULO */
   #redes-bajo-titulo {
     display: flex;
     justify-content: space-around;
@@ -404,7 +452,12 @@ nav {
     top: 2500px;
   }
 
-  /* VIDEOS */
+  /* Playlists */
+  .albumes iframe{
+    width: 60%;
+  }
+
+  /* VIDEOS MUSICA*/
   .more {
     display: flex;
     flex-direction: column;
@@ -424,7 +477,18 @@ nav {
     width: 100%;
   }
 
+  .card-video{
+    width: 50%;
+  }
+  .videoClips{
+    width: 100%;
+    height: auto;
+    margin-top: .5rem;
+  }
+
+  /* Boton de subir */
   #ir-arriba {
     display: none;
   }
+
 }
