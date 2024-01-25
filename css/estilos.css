@@ -259,14 +259,7 @@ nav {
     margin: 0px;
     background-color: black;
     height: 66px;
-    background: -o-linear-gradient(
-      top,
-      rgba(0, 0, 0, 0.57) 0%,
-      rgba(0, 0, 0, 0.69) 28%,
-      rgba(0, 0, 0, 0.75) 43%,
-      rgba(0, 0, 0, 0.85) 64%,
-      rgba(0, 0, 0, 1) 100%
-    );
+    width: 100%;
   }
 
   .redes {
@@ -325,6 +318,16 @@ nav {
   #redes-bajo-titulo img {
     width: 20px;
     opacity: 0.4;
+  }
+  .sub-title{
+    margin-top: 16rem;
+  }
+  iframe{
+    width: 80%;
+  }
+  .more{
+   flex-direction: column;
+   align-items: center; 
   }
 }
 
