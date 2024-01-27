@@ -11,7 +11,7 @@ if (window.innerWidth >= 1024) {
     prevScrollpos = currentScrollPos;
   };
 }
-if(window.innerWidth > 767 && window.innerWidth < 1024){
+if(window.innerWidth >= 768 && window.innerWidth < 1024){
   window.onscroll = function () {
     let currentScrollPos = window.scrollY;
     if (prevScrollpos > currentScrollPos) {
