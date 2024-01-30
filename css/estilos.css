@@ -287,6 +287,14 @@ nav {
     padding: 10px;
     border-radius: 90px;
   }
+  .menu a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    cursor: auto;
+    transition: 0.5s;
+    border-radius: 0px;
+    scale: 1;
+    border: none;
+  }
 
   .redes {
     display: none;

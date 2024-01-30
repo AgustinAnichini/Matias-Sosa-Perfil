@@ -1,358 +1,393 @@
-@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
 /* font-family: 'Forum', serif; */
 @font-face {
-    font-family: "Livia";
-    src: url(/fuentes/livia_medium/Livia\ Medium.ttf);
-  }
+  font-family: "Livia";
+  src: url(/fuentes/livia_medium/Livia\ Medium.ttf);
+}
 
-#equipo{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin: auto;
-    /* background-image: url(/img/fuego\ equipo.png); */
-    /* background-repeat:no-repeat; */
-    /* background-color: #fff; */
-    /* background-position: center; */
-    /* background-size: contain; */
-    margin-top: 8rem;
-    margin-bottom: 15rem;
-    /* border: 1px solid white; */
-    position: relative;
+#equipo {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  /* background-image: url(/img/fuego\ equipo.png); */
+  /* background-repeat:no-repeat; */
+  /* background-color: #fff; */
+  /* background-position: center; */
+  /* background-size: contain; */
+  margin-top: 8rem;
+  margin-bottom: 15rem;
+  /* border: 1px solid white; */
+  position: relative;
 }
 
 /* Fondo */
 
-#fuego-equipo{
-    position:absolute;
-    width: 70%;
-    left: 15%;
-    top: -5%;
-    /* border: 1px solid wheat; */
-    z-index: -5;
-    opacity: 0.7;
+#fuego-equipo {
+  position: absolute;
+  width: 70%;
+  left: 15%;
+  top: -5%;
+  /* border: 1px solid wheat; */
+  z-index: -5;
+  opacity: 0.7;
 }
 
 /* Titulo */
 
-#equipo .sub-title{
-    margin-top: 0;
-    z-index: 2;
-    margin-bottom: 2rem;
+#equipo .sub-title {
+  margin-top: 0;
+  z-index: 2;
+  margin-bottom: 2rem;
 }
 
 /* Contenido */
 
-#equipo-contenido{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    z-index: 2;
+#equipo-contenido {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  z-index: 2;
 }
 
 /* Fotos */
 
-#equipo-fotos{
-    position: relative;
-    width: 40%;
-    /* border: 1px solid wheat; */
+#equipo-fotos {
+  position: relative;
+  width: 40%;
+  /* border: 1px solid wheat; */
 }
 
-#equipo-fotos img{
-    width: 12rem;
-    height: auto;
+#equipo-fotos img {
+  width: 12rem;
+  height: auto;
 }
 
-#foto-1{
-    position: absolute;
-    left: 12%;
-    z-index: 4;
-    scale: 0.9;
-    transition: 1s;
-    top:-1%;
+#foto-1 {
+  position: absolute;
+  left: 12%;
+  z-index: 4;
+  scale: 0.9;
+  transition: 1s;
+  top: -1%;
 }
-#foto-2{
-    position: absolute;
-    /* left: 10; */
-    top: 35%;
-    z-index: 6;
-    scale: 0.85;
+#foto-2 {
+  position: absolute;
+  /* left: 10; */
+  top: 35%;
+  z-index: 6;
+  scale: 0.85;
 }
-#foto-3{
-    position: absolute;
-    left: 28%;
-    top: 46%;
-    scale: 1.1;
-    z-index: 8;
+#foto-3 {
+  position: absolute;
+  left: 28%;
+  top: 46%;
+  scale: 1.1;
+  z-index: 8;
 }
-#foto-4{
-    position: absolute;
-    left: 60%;
-    top: 36%;
-    scale: 1;
-    z-index: 7;
+#foto-4 {
+  position: absolute;
+  left: 60%;
+  top: 36%;
+  scale: 1;
+  z-index: 7;
 }
-#foto-5{
-    position: relative;
-    width: 100%;
-    left: 45%;
-    scale: 1;
-    z-index: 5;
-}
-
-#foto-1:hover{
-    /* background: linear-gradient(rgba(236, 74, 74, 0.945),20%,black,black); */
-    background-color: rgba(0, 0, 0, 0.212);
-    cursor: pointer;
-    transition: .5s;
-    border-radius: 90px;
-    border: 3px solid rgba(230, 54, 54, 0.938);
-    scale: 1;
-}
-#foto-2:hover{
-    background-color: rgba(0, 0, 0, 0.212);
-    cursor: pointer;
-    transition: .5s;
-    border-radius: 90px;
-    scale: .95;
-    border: 3px solid rgba(230, 54, 54, 0.938);
+#foto-5 {
+  position: relative;
+  width: 100%;
+  left: 45%;
+  scale: 1;
+  z-index: 5;
 }
 
-#foto-3:hover{
-    background-color: rgba(0, 0, 0, 0.212);
-    cursor: pointer;
-    transition: .5s;
-    border-radius: 90px;
-    scale: 1.2;
-    border: 3px solid rgba(230, 54, 54, 0.938);
+#foto-1:hover {
+  /* background: linear-gradient(rgba(236, 74, 74, 0.945),20%,black,black); */
+  background-color: rgba(0, 0, 0, 0.212);
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 90px;
+  border: 3px solid rgba(230, 54, 54, 0.938);
+  scale: 1;
+}
+#foto-2:hover {
+  background-color: rgba(0, 0, 0, 0.212);
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 90px;
+  scale: 0.95;
+  border: 3px solid rgba(230, 54, 54, 0.938);
 }
 
-#foto-4:hover{
-    background-color: rgba(0, 0, 0, 0.212);
-    cursor: pointer;
-    transition: .5s;
-    border-radius: 90px;
-    scale: 1.1;
-    border: 3px solid rgba(230, 54, 54, 0.938);
+#foto-3:hover {
+  background-color: rgba(0, 0, 0, 0.212);
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 90px;
+  scale: 1.2;
+  border: 3px solid rgba(230, 54, 54, 0.938);
 }
 
-#foto-5:hover{
-    background-color: rgba(0, 0, 0, 0.212);
-    cursor: pointer;
-    transition: .5s;
-    border-radius: 90px;
-    scale: 1.1;
-    border: 3px solid rgba(230, 54, 54, 0.938);
+#foto-4:hover {
+  background-color: rgba(0, 0, 0, 0.212);
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 90px;
+  scale: 1.1;
+  border: 3px solid rgba(230, 54, 54, 0.938);
+}
+
+#foto-5:hover {
+  background-color: rgba(0, 0, 0, 0.212);
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 90px;
+  scale: 1.1;
+  border: 3px solid rgba(230, 54, 54, 0.938);
 }
 /* Descripcion */
 
-.equipo-descripcion{
-    width: 32%;
-    height: 100%;
-    /* margin: auto; */
-    border: 2px solid white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 4rem 0 auto;
-    padding: 1.5rem;
-    background-color: rgba(0, 0, 0, 0.541);
+.equipo-descripcion {
+  width: 32%;
+  height: 100%;
+  /* margin: auto; */
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 0 auto;
+  padding: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.541);
 }
 
-.equipo-descripcion h3{
-    font-size: 2rem;
-    color: #fff;
-    font-family: 'Forum', serif;
-    font-weight: lighter;
-    width: 100%;
-    text-transform: uppercase;
+.equipo-descripcion h3 {
+  font-size: 2rem;
+  color: #fff;
+  font-family: "Forum", serif;
+  font-weight: lighter;
+  width: 100%;
+  text-transform: uppercase;
 }
 
-.equipo-descripcion p{
-    font-family: 'Forum', serif;
-    color: #fff;
-    margin: .8rem 0;
-    line-height: 1.4rem;
-    margin: 1.5rem 0;
-    box-sizing: border-box;
-    height: 100%;
-    letter-spacing: 1px;
+.equipo-descripcion p {
+  font-family: "Forum", serif;
+  color: #fff;
+  margin: 0.8rem 0;
+  line-height: 1.4rem;
+  margin: 1.5rem 0;
+  box-sizing: border-box;
+  height: 100%;
+  letter-spacing: 1px;
 }
 
-.equipo-redes{
-    display: flex;
-    justify-content: space-between;
-    width: 20%;
+.equipo-redes {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
 }
 
-.equipo-redes img{
-    width: 2rem;
-    height: auto;
+.equipo-redes img {
+  width: 2rem;
+  height: auto;
 }
 
 /* Display none */
-.equipo-display-none{
-    display: none;
+.equipo-display-none {
+  display: none;
+}
+
+/* Clase para fotos tablet y movile */
+
+.fotosMovile {
+  background-color: rgba(0, 0, 0, 0.212);
+  transition: 0.5s;
+  border-radius: 90px;
+  scale: 1.1;
+  border: 3px solid rgba(230, 54, 54, 0.938);
 }
 /*  !--------------------------------------------------------- */
-  /* *-----------------------RESPONSIVE CELULAR ---------------*/
+/* *-----------------------RESPONSIVE CELULAR ---------------*/
 
 @media screen and (max-width: 767px) {
-    #equipo-contenido {
-        flex-direction: column;
-        align-items: center;
-    }
-    .equipo-descripcion {
-        width: 80%;
-        margin: 8rem 0rem -8rem 0rem;
-    }
-    #equipo-fotos img{
-        width: 8rem;
-    }
-    #equipo-fotos {
-        width: 100%;
-    }
-    #fuego-equipo {
-        left: 3%;
-        top: 21%;
-        width: 100%;
-        rotate:calc(90deg);
-    }
-    .equipo-descripcion h3 {
-        font-size: 1rem;
-    }
-    .equipo-descripcion p {
-        font-size: small;
-    }
-    .equipo-redes {
-        justify-content: center;
-        width: 10%;
-        gap: 15px;
-    }
+  #equipo-contenido {
+    flex-direction: column;
+    align-items: center;
+  }
+  .equipo-descripcion {
+    width: 80%;
+    margin: 8rem 0rem -8rem 0rem;
+  }
+  #equipo-fotos img {
+    width: 8rem;
+  }
+  #equipo-fotos {
+    width: 100%;
+  }
+  #fuego-equipo {
+    left: 3%;
+    top: 21%;
+    width: 100%;
+    rotate: calc(90deg);
   }
 
-  /* *----------------------RESPONSIVE TABLET -----------------*/
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    
-    #equipo{
-        width: 100%;
-    }
-
-    /* Fondo */
-
-    #fuego-equipo{
-        width: 90%;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        opacity: 0.7;
-        rotate:calc(90deg);
-        /* ? probar con agus rotando la imagen */
-    }
-
-    /* Titulo */
-
-    #equipo .sub-title{
-        margin-top: 0;
-        z-index: 2;
-        margin-bottom: 2rem;
-    }
-
-    /* Contenido */
-
-    #equipo-contenido{
-        flex-direction: column;
-        justify-content: space-between;
-        align-items:center;
-    }
-
-    /* Fotos */
-
-    #equipo-fotos{
-        position: relative;
-        width: 65%;
-        margin-bottom: 4rem;
-    }
-
-    #equipo-fotos img{
-        width: 12rem;
-        height: auto;
-    }
-
-    
-#foto-1:hover{
-    /* background: linear-gradient(rgba(236, 74, 74, 0.945),20%,black,black); */
-    background-color: rgba(0, 0, 0, 0.212);
-    cursor: pointer;
-    transition: .5s;
+  #foto-1:hover {
     border-radius: 90px;
     border: 3px solid rgba(230, 54, 54, 0.938);
     scale: 1;
-}
-#foto-2:hover{
-    background-color: rgba(0, 0, 0, 0.212);
-    cursor: pointer;
-    transition: .5s;
+  }
+  #foto-2:hover {
     border-radius: 90px;
-    scale: .95;
+    scale: 0.95;
     border: 3px solid rgba(230, 54, 54, 0.938);
-}
+  }
 
-#foto-3:hover{
-    background-color: rgba(0, 0, 0, 0.212);
-    cursor: pointer;
-    transition: .5s;
+  #foto-3:hover {
     border-radius: 90px;
     scale: 1.2;
     border: 3px solid rgba(230, 54, 54, 0.938);
-}
+  }
 
-#foto-4:hover{
-    background-color: rgba(0, 0, 0, 0.212);
-    cursor: pointer;
-    transition: .5s;
+  #foto-4:hover {
     border-radius: 90px;
     scale: 1.1;
     border: 3px solid rgba(230, 54, 54, 0.938);
-}
+  }
 
-#foto-5:hover{
-    background-color: rgba(0, 0, 0, 0.212);
-    cursor: pointer;
-    transition: .5s;
+  #foto-5:hover {
     border-radius: 90px;
     scale: 1.1;
     border: 3px solid rgba(230, 54, 54, 0.938);
+  }
+  .equipo-descripcion h3 {
+    font-size: 1rem;
+  }
+  .equipo-descripcion p {
+    font-size: small;
+  }
+  .equipo-redes {
+    justify-content: center;
+    width: 10%;
+    gap: 15px;
+  }
 }
-/* Descripcion */
 
-.equipo-descripcion{
+/* *----------------------RESPONSIVE TABLET -----------------*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #equipo {
+    width: 100%;
+  }
+
+  /* Fondo */
+
+  #fuego-equipo {
+    width: 90%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0.7;
+    rotate: calc(90deg);
+    /* ? probar con agus rotando la imagen */
+  }
+
+  /* Titulo */
+
+  #equipo .sub-title {
+    margin-top: 0;
+    z-index: 2;
+    margin-bottom: 2rem;
+  }
+
+  /* Contenido */
+
+  #equipo-contenido {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Fotos */
+
+  #equipo-fotos {
+    position: relative;
+    width: 65%;
+    margin-bottom: 4rem;
+  }
+
+  #equipo-fotos img {
+    width: 12rem;
+    height: auto;
+  }
+
+  #foto-1:hover {
+    /* background: linear-gradient(rgba(236, 74, 74, 0.945),20%,black,black); */
+    background-color: rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 90px;
+    border: 3px solid rgba(230, 54, 54, 0.938);
+    scale: 1;
+  }
+  #foto-2:hover {
+    background-color: rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 90px;
+    scale: 0.95;
+    border: 3px solid rgba(230, 54, 54, 0.938);
+  }
+
+  #foto-3:hover {
+    background-color: rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 90px;
+    scale: 1.2;
+    border: 3px solid rgba(230, 54, 54, 0.938);
+  }
+
+  #foto-4:hover {
+    background-color: rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 90px;
+    scale: 1.1;
+    border: 3px solid rgba(230, 54, 54, 0.938);
+  }
+
+  #foto-5:hover {
+    background-color: rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 90px;
+    scale: 1.1;
+    border: 3px solid rgba(230, 54, 54, 0.938);
+  }
+  /* Descripcion */
+
+  .equipo-descripcion {
     width: 55%;
     /* margin: auto; */
-}
+  }
 
-.equipo-descripcion h3{
+  .equipo-descripcion h3 {
     font-size: 2rem;
+  }
 
-}
-
-.equipo-redes{
+  .equipo-redes {
     display: flex;
     justify-content: space-around;
     width: 45%;
-}
+  }
 
-.equipo-redes img{
+  .equipo-redes img {
     width: 2.3rem;
     height: auto;
-}
+  }
 
-/* Display none */
-.equipo-display-none{
+  /* Display none */
+  .equipo-display-none {
     display: none;
-}
-    
+  }
 }

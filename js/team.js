@@ -25,6 +25,13 @@ function view(e) {
             descripcionNico.classList.add('equipo-display-none')
             descripcionBrenda.classList.add('equipo-display-none')
             descripcionArami.classList.add('equipo-display-none')
+            //
+            foto1.classList.add('fotosMovile')
+
+            foto4.classList.remove('fotosMovile')
+            foto2.classList.remove('fotosMovile')
+            foto3.classList.remove('fotosMovile')
+            foto5.classList.remove('fotosMovile')
             break;
         case foto2.id:
             descripcionGeneral.classList.add('equipo-display-none')
@@ -34,7 +41,13 @@ function view(e) {
             descripcionNico.classList.add('equipo-display-none')
             descripcionBrenda.classList.add('equipo-display-none')
             descripcionArami.classList.add('equipo-display-none')
+            //
+            foto2.classList.add('fotosMovile')
 
+            foto4.classList.remove('fotosMovile')
+            foto1.classList.remove('fotosMovile')
+            foto3.classList.remove('fotosMovile')
+            foto5.classList.remove('fotosMovile')
             break;
         case foto3.id:
             descripcionGeneral.classList.add('equipo-display-none')
@@ -44,6 +57,13 @@ function view(e) {
             descripcionNico.classList.add('equipo-display-none')
             descripcionBrenda.classList.remove('equipo-display-none')
             descripcionArami.classList.add('equipo-display-none')
+            //
+            foto3.classList.add('fotosMovile')
+
+            foto4.classList.remove('fotosMovile')
+            foto2.classList.remove('fotosMovile')
+            foto1.classList.remove('fotosMovile')
+            foto5.classList.remove('fotosMovile')
             break;
         case foto4.id:
             descripcionGeneral.classList.add('equipo-display-none')
@@ -53,6 +73,13 @@ function view(e) {
             descripcionNico.classList.remove('equipo-display-none')
             descripcionBrenda.classList.add('equipo-display-none')
             descripcionArami.classList.add('equipo-display-none')
+            //
+            foto4.classList.add('fotosMovile')
+
+            foto1.classList.remove('fotosMovile')
+            foto2.classList.remove('fotosMovile')
+            foto3.classList.remove('fotosMovile')
+            foto5.classList.remove('fotosMovile')
             break;
         case foto5.id:
             descripcionGeneral.classList.add('equipo-display-none')
@@ -62,6 +89,13 @@ function view(e) {
             descripcionNico.classList.add('equipo-display-none')
             descripcionBrenda.classList.add('equipo-display-none')
             descripcionArami.classList.remove('equipo-display-none')
+            //
+            foto5.classList.add('fotosMovile')
+
+            foto4.classList.remove('fotosMovile')
+            foto2.classList.remove('fotosMovile')
+            foto3.classList.remove('fotosMovile')
+            foto1.classList.remove('fotosMovile')
             break;
 
         default:
