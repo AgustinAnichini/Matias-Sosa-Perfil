@@ -270,6 +270,37 @@
     gap: 15px;
   }
 }
+    #equipo-contenido {
+        flex-direction: column;
+        align-items: center;
+    }
+    .equipo-descripcion {
+        width: 80%;
+        margin: 8rem 0rem -8rem 0rem;
+    }
+    #equipo-fotos img{
+        width: 8rem;
+    }
+    #equipo-fotos {
+        width: 100%;
+    }
+    #fuego-equipo {
+        left: 3%;
+        top: 21%;
+        width: 100%;
+    }
+    .equipo-descripcion h3 {
+        font-size: 1rem;
+    }
+    .equipo-descripcion p {
+        font-size: small;
+    }
+    .equipo-redes {
+        justify-content: center;
+        width: 10%;
+        gap: 15px;
+    }
+  }
 
 /* *----------------------RESPONSIVE TABLET -----------------*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
