@@ -217,7 +217,6 @@
         left: 3%;
         top: 21%;
         width: 100%;
-        rotate:calc(90deg);
     }
     .equipo-descripcion h3 {
         font-size: 1rem;
@@ -249,7 +248,7 @@
         bottom: 0;
         margin: auto;
         opacity: 0.7;
-        rotate:calc(90deg);
+        /* rotate:calc(90deg); */
         /* ? probar con agus rotando la imagen */
     }
 
