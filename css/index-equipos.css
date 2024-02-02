@@ -63,7 +63,7 @@
   height: auto;
   border: 3px solid rgba(0, 0, 0, 0);
   border-radius: 90px;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 #foto-1 {
@@ -71,7 +71,7 @@
   left: 12%;
   z-index: 4;
   scale: 0.9;
-  
+
   top: -1%;
 }
 #foto-2 {
@@ -164,7 +164,7 @@
 }
 
 .equipo-descripcion h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fff;
   font-family: "Forum", serif;
   font-weight: lighter;
@@ -203,7 +203,7 @@
 
 .fotosMovile {
   background-color: rgba(0, 0, 0, 0.212);
-  transition:all 0.5s ease;
+  transition: all 0.5s ease;
   border-radius: 90px;
   scale: 1.1;
   border: 3px solid rgba(230, 54, 54, 0.938);
@@ -392,5 +392,12 @@
   /* Display none */
   .equipo-display-none {
     display: none;
+  }
+}
+
+/* -- Notebook --*/
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+  #title-pc {
+    bottom: 150px;
   }
 }

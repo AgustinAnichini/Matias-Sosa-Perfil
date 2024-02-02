@@ -7,7 +7,7 @@ const foto5 = document.getElementById('foto-5')
 const descripcionGeneral = document.getElementById('descripcion-general')
 const descripcionNico = document.getElementById('descripcion-nico')
 const descripcionAilen = document.getElementById('descripcion-ailen')
-const descripcionBrenda = document.getElementById('descripcion-brenda')
+const descriocionZoe = document.getElementById('descripcion-zoe')
 const descripcionArami = document.getElementById('descripcion-arami')
 const descripcionCaro = document.getElementById('descripcion-caro')
 
@@ -24,7 +24,7 @@ function view(e) {
                 // 
                 descripcionAilen.classList.add('equipo-display-none')
                 descripcionNico.classList.add('equipo-display-none')
-                descripcionBrenda.classList.add('equipo-display-none')
+                descriocionZoe.classList.add('equipo-display-none')
                 descripcionArami.classList.add('equipo-display-none')
                 break;
             case foto2.id:
@@ -33,7 +33,7 @@ function view(e) {
                 // 
                 descripcionAilen.classList.remove('equipo-display-none')
                 descripcionNico.classList.add('equipo-display-none')
-                descripcionBrenda.classList.add('equipo-display-none')
+                descriocionZoe.classList.add('equipo-display-none')
                 descripcionArami.classList.add('equipo-display-none')
     
                 break;
@@ -43,7 +43,7 @@ function view(e) {
                 // 
                 descripcionAilen.classList.add('equipo-display-none')
                 descripcionNico.classList.add('equipo-display-none')
-                descripcionBrenda.classList.remove('equipo-display-none')
+                descriocionZoe.classList.remove('equipo-display-none')
                 descripcionArami.classList.add('equipo-display-none')
                 break;
             case foto4.id:
@@ -52,7 +52,7 @@ function view(e) {
                 // 
                 descripcionAilen.classList.add('equipo-display-none')
                 descripcionNico.classList.remove('equipo-display-none')
-                descripcionBrenda.classList.add('equipo-display-none')
+                descriocionZoe.classList.add('equipo-display-none')
                 descripcionArami.classList.add('equipo-display-none')
                 break;
             case foto5.id:
@@ -61,7 +61,7 @@ function view(e) {
                 // 
                 descripcionAilen.classList.add('equipo-display-none')
                 descripcionNico.classList.add('equipo-display-none')
-                descripcionBrenda.classList.add('equipo-display-none')
+                descriocionZoe.classList.add('equipo-display-none')
                 descripcionArami.classList.remove('equipo-display-none')
                 break;
     
@@ -77,7 +77,7 @@ function view(e) {
                 // 
                 descripcionAilen.classList.add('equipo-display-none')
                 descripcionNico.classList.add('equipo-display-none')
-                descripcionBrenda.classList.add('equipo-display-none')
+                descriocionZoe.classList.add('equipo-display-none')
                 descripcionArami.classList.add('equipo-display-none')
                 //
                 foto1.classList.add('fotosMovile')
@@ -93,7 +93,7 @@ function view(e) {
                 // 
                 descripcionAilen.classList.remove('equipo-display-none')
                 descripcionNico.classList.add('equipo-display-none')
-                descripcionBrenda.classList.add('equipo-display-none')
+                descriocionZoe.classList.add('equipo-display-none')
                 descripcionArami.classList.add('equipo-display-none')
                 //
                 foto2.classList.add('fotosMovile')
@@ -109,7 +109,7 @@ function view(e) {
                 // 
                 descripcionAilen.classList.add('equipo-display-none')
                 descripcionNico.classList.add('equipo-display-none')
-                descripcionBrenda.classList.remove('equipo-display-none')
+                descriocionZoe.classList.remove('equipo-display-none')
                 descripcionArami.classList.add('equipo-display-none')
                 //
                 foto3.classList.add('fotosMovile')
@@ -125,7 +125,7 @@ function view(e) {
                 // 
                 descripcionAilen.classList.add('equipo-display-none')
                 descripcionNico.classList.remove('equipo-display-none')
-                descripcionBrenda.classList.add('equipo-display-none')
+                descriocionZoe.classList.add('equipo-display-none')
                 descripcionArami.classList.add('equipo-display-none')
                 //
                 foto4.classList.add('fotosMovile')
@@ -141,7 +141,7 @@ function view(e) {
                 // 
                 descripcionAilen.classList.add('equipo-display-none')
                 descripcionNico.classList.add('equipo-display-none')
-                descripcionBrenda.classList.add('equipo-display-none')
+                descriocionZoe.classList.add('equipo-display-none')
                 descripcionArami.classList.remove('equipo-display-none')
                 //
                 foto5.classList.add('fotosMovile')
