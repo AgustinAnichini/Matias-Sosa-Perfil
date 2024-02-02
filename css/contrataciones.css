@@ -131,6 +131,10 @@ main{
         width: auto;
     }
 
+    #contrataciones-title{
+        font-size: 4rem;
+    }
+
     /* FORMULARIO */
     #contrataciones-form {
         width: 50%;
