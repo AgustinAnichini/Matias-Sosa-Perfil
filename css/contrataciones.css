@@ -1,159 +1,168 @@
-@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
 /* font-family: 'Forum', serif; */
 @font-face {
-    font-family: "Livia";
-    src: url(/fuentes/livia_medium/Livia\ Medium.ttf);
-  }
-
-main{
-    padding-bottom: 5rem;
+  font-family: "Livia";
+  src: url(/fuentes/livia_medium/Livia\ Medium.ttf);
 }
 
-#contrataciones-title{
-        color: white;
-        font-size: 5rem;
-        font-weight: lighter;
-        text-align: center;
-        margin-top: 100px;
-        margin-bottom: 3rem;
-        letter-spacing: 15px;
-        font-family: "Livia";
-     
+main {
+  padding-bottom: 5rem;
+}
+
+.contrataciones-text {
+  font-family: "Forum", serif;
+  color: #fff;
+  margin: 0.8rem 0;
+  line-height: 1.4rem;
+  margin: 2.5rem 0.7rem;
+  box-sizing: border-box;
+  height: 100%;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: small;
+}
+
+#contrataciones-title {
+  color: white;
+  font-size: 5rem;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 3rem;
+  letter-spacing: 15px;
+  font-family: "Livia";
 }
 
 #contrataciones-form {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    margin: auto;
-    font-size: 1.3rem;
-    color: white;
-    background-image: url('/img/fuego equipo.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    /* Aplicar opacidad directamente a la imagen de fondo */
-    /* background-color: rgba(255, 255, 255, 0.2); */
-    padding: 0 17rem;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: auto;
+  font-size: 1.3rem;
+  color: white;
+  background-image: url("/img/fuego equipo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* Aplicar opacidad directamente a la imagen de fondo */
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  padding: 0 17rem;
 }
 
- #contrataciones-form label{
-    letter-spacing: 1px;
+#contrataciones-form label {
+  letter-spacing: 1px;
 }
 
-.contrataciones-input{
-    margin: 0.5rem 0 1rem;
-    height: 2.3rem;
-    background-color: #000000a9;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    color: white;
-    font-family: 'Forum', serif;
-    font-size: 1.2rem;
-    border: 2px solid white;
-    letter-spacing: 1px;
+.contrataciones-input {
+  margin: 0.5rem 0 1rem;
+  height: 2.3rem;
+  background-color: #000000a9;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
+  font-family: "Forum", serif;
+  font-size: 1.2rem;
+  border: 2px solid white;
+  letter-spacing: 1px;
 }
 
-.contrataciones-input::placeholder{
-    color: rgba(255, 255, 255, 0.753);
-    font-family: 'Forum', serif;
+.contrataciones-input::placeholder {
+  color: rgba(255, 255, 255, 0.753);
+  font-family: "Forum", serif;
 }
 
 #contrataciones-consulta {
-    color: white;
-    height: 12rem;
-    line-height: 3rem;
+  color: white;
+  height: 12rem;
+  line-height: 3rem;
 }
 
-#contrataciones-consulta::-webkit-input-placeholder{
-    line-height: 3rem;
-
+#contrataciones-consulta::-webkit-input-placeholder {
+  line-height: 3rem;
 }
 
-#contrataciones-enviar{
-    width: 25%;
-    height: 2.3rem;
-    text-align: center;
-    padding: 0;
-    margin: 1rem auto 0;
-    transition:background-color 0.5s ease;
+#contrataciones-enviar {
+  width: 25%;
+  height: 2.3rem;
+  text-align: center;
+  padding: 0;
+  margin: 1rem auto 0;
+  transition: background-color 0.5s ease;
 }
 
-#contrataciones-enviar:hover{
-    background-color: #920722;
-    cursor: pointer;
+#contrataciones-enviar:hover {
+  background-color: #920722;
+  cursor: pointer;
 }
-@media screen and (max-width:767px){
-    #contrataciones-title {
-        font-size: 2rem;
-        margin: 50px 0px 100px 0px;
-        letter-spacing: 10px;
-    }
-    #contrataciones-form{
-        width: 80%;
-        padding: 0px;
-        background-position-y: center;
-    }
-    label{
-        font-size: medium;
-    }
-    .contrataciones-input {
-        font-size: medium;
-    }
+@media screen and (max-width: 767px) {
+  #contrataciones-title {
+    font-size: 2rem;
+    margin: 50px 0px 100px 0px;
+    letter-spacing: 10px;
+  }
+  #contrataciones-form {
+    width: 80%;
+    padding: 0px;
+    background-position-y: center;
+  }
+  label {
+    font-size: medium;
+  }
+  .contrataciones-input {
+    font-size: medium;
+  }
 }
 /* *-------------------- RESPONSIVE TABLET------------------ */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* NAVEGADOR */
+  nav {
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
 
-    /* NAVEGADOR */
-    nav{
-        justify-content: space-between;
-        align-items: center;
-        width: 90%;
-        margin: auto;
-        left: 0;
-        right: 0;
-    }
+  .redes {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: space-around;
+    gap: 20px;
+    height: 50px;
+    margin: 0;
+    width: 40%;
+  }
+  .redes img {
+    width: 25px;
+  }
+  .menu {
+    width: auto;
+  }
 
-    .redes{
-        display: flex;
-        align-items: center;
-        margin: 0;;
-            justify-content: space-around;
-            gap: 20px;
-            height: 50px;
-            margin: 0;
-            width: 40%;
-    }
-    .redes img{
-        width: 25px;
-    }
-    .menu{
-        width: auto;
-    }
+  #contrataciones-title {
+    font-size: 4rem;
+  }
 
-    #contrataciones-title{
-        font-size: 4rem;
-    }
+  /* FORMULARIO */
+  #contrataciones-form {
+    width: 50%;
+    background-position: center;
+    padding: 0 10rem;
+  }
 
-    /* FORMULARIO */
-    #contrataciones-form {
-        width: 50%;
-        background-position: center;
-        padding: 0 10rem;
-    }
+  #contrataciones-enviar:hover {
+    background-color: rgba(0, 0, 0, 0);
+    cursor: none;
+  }
 
-    #contrataciones-enviar:hover{
-        background-color: rgba(0, 0, 0, 0);
-        cursor: none;
-    }
-    
-    /* FOOTER */
-    footer{
-        position: absolute;
-        bottom: 0;
-        margin: auto;
-        left: 0;
-        right: 0;
-    }
-
+  /* FOOTER */
+  footer {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
 }
